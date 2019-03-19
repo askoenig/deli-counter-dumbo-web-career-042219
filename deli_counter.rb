@@ -19,5 +19,7 @@ def take_a_number(katz_deli, name)
 end
   
 def now_serving(katz_deli)
-  puts katz_deli.shift
+  if katz_deli katz_deli.size > 0
+  puts "Now serving #{katz_deli.shift}"
+  
   
